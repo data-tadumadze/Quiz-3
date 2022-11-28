@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(Fonts/Roboto-Regular.eot);
+  src: url(Fonts/Roboto-Regular.ttf) format("truetype"),
+    url(Fonts/Roboto-Regular.woff) format("woff"),
+    url(Fonts/Roboto-Regular.woff2) format("woff2");
+}
+
+body {
+  padding-top: 100px;
+  background-color: #4594e4;
+  font-family: "Roboto-Regular";
+}
+
+h1 {
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+table {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 255);
+}
+
+
+
+tr {
+    height: 40px;
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+}
+
+tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+th {
+    vertical-align: middle;
+    color: white;
+}
+
+th:nth-child(odd) {
+    background-color: #2e4760;
+}
+
+th:nth-child(even) {
+    background-color: #4ec4a2;
+}
+
