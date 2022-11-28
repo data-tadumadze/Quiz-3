@@ -1,0 +1,41 @@
+body {
+    padding-top: 200px;
+    background-color: #338a86;
+}
+
+.border {
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid #ff9851;
+
+}
+
+.loading {
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #fafdfa;
+    animation: fill 3s infinite ease;
+}
+
+@keyframes fill {
+
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100px;
+    }
+
+    75% {
+        width: 150px;
+    }
+
+    100% {
+        width: 200px;
+    }
+    
+}
